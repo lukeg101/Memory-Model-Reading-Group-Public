@@ -1,4 +1,6 @@
 # Memory Model Reading Group
+Public Reading group timetable for Memory Model/Compiler Verification Reading Group I run at Arm.
+
 A place to collect all papers related to Memory Models, Compiler Verification, and anything with Cats!
 
 ## Current Timetable for Reading
