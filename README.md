@@ -7,8 +7,7 @@ A place to collect all papers related to Memory Models, Compiler Verification, a
 
 Upcoming reading goes here, initial notes and errata will appear in each `paper`'s directory (`papers/01`, `02` etc...) as they are read.
 
-- Jean-Baptiste, Paul Govereau, and Greg Morisset. _Evaluating Value-graph translation validation for LLVM_, [link](
-https://dash.harvard.edu/bitstream/handle/1/4762396/pldi84-tristan.pdf)
+- Sudipta Kundu, Zachary Tatlock, Sorin Lerner. _Proving optimizations correct using parameterized program equivalence_, [link](https://cseweb.ucsd.edu/~lerner/papers/pldi09-pec.pdf)
 
 ## Questions to Evaluate a Paper By
 
@@ -30,7 +29,6 @@ When reading, we aim try and answer the following (or question why they cannot b
 Papers we should read after the above. 
 
 - Thomas Sewell, Magnus Myreen, and Gerwin Klein. _Translation Validation for a Verified OS Kernel_, [link](https://ts.data61.csiro.au/publications/nicta_full_text/6449.pdf)
-- Sudipta Kundu, Zachary Tatlock, Sorin Lerner. _Proving optimizations correct using parameterized program equivalence_, [link](https://cseweb.ucsd.edu/~lerner/papers/pldi09-pec.pdf)
 - Xavier Leroy and Sandrine Blazy. _Formal verification of a C-like memory model and its uses for verifying program transformations_. [link](https://xavierleroy.org/publi/memory-model-journal.pdf)
 - George Necula. _Translation Validation for an Optimizing Compiler_. [link](http://people.cse.iitd.ernet.in/~sbansal/csl862-soft/readings/translation_validation.pdf)
 - Zachary Tatlock and Sorin Lerner. _Bringing Extensibility to Verified Compilers_. [link](https://cseweb.ucsd.edu/~lerner/papers/pldi10-xcert.html)
@@ -69,6 +67,7 @@ Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc
 - Thomas Dullian, _Weird machines, exploitability, and provable unexploitability_, [link](http://www.dullien.net/thomas/weird-machines-exploitability.pdf)
 - Jennifer Paykin et. al, _Weird Machines as Insecure Compilation_, [link](https://arxiv.org/abs/1911.00157#:~:text=Weird%20machines%20are%20the%20sets,are%20witnesses%20to%20insecure%20compilation.)
 - Soham Chakraborty and Viktor Vafeiadis. _Validating Optimizations of Concurrent C/C++ Programs (this is also translation validation)_, [link](http://plv.mpi-sws.org/validc/paper.pdf)
+- Jean-Baptiste, Paul Govereau, and Greg Morisset. _Evaluating Value-graph translation validation for LLVM_, [link](https://dash.harvard.edu/bitstream/handle/1/4762396/pldi84-tristan.pdf)
 
 
 
