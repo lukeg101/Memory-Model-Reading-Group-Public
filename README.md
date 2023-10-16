@@ -26,10 +26,8 @@ When reading, we aim try and answer the following (or question why they cannot b
 
 ## Papers in the Pipeline
 
-Papers we should read after the above. 
+Papers we should read after the above.
 
-- Robin Morisset et. al. _Compiler Testing via a Theory of Sound
-Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc/readings/pldi13.pdf)
 - Jaroslav Sevcik. _Safe Optimisations for Shared-Memory Concurrent Programs_. [link](https://www.cl.cam.ac.uk/~pes20/weakmemory/transsafety.pdf).
 - Jaroslav Sevcik et. al. _CompCertTSO: A Verified Compiler for Relaxed-Memory Concurrency_. [link](https://people.mpi-sws.org/~viktor/papers/jacm-compcerttso.pdf)
 - Viktor Vafeiadis and Francesco Zappa Nardelli. _Verifying Fence Elimination Optimisations_. [link](https://www.cl.cam.ac.uk/~pes20/CompCertTSO/doc/fenceelim.pdf)
@@ -41,6 +39,7 @@ Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc
 - Xavier Leroy and Sandrine Blazy. _Formal verification of a C-like memory model and its uses for verifying program transformations_. [link](https://xavierleroy.org/publi/memory-model-journal.pdf)
 - Zachary Tatlock and Sorin Lerner. _Bringing Extensibility to Verified Compilers_. [link](https://cseweb.ucsd.edu/~lerner/papers/pldi10-xcert.html)
 - Jean-Baptiste Tristan and Xavier Leroy. _Formal verification of translation validators: A case study on instruction scheduling optimizations_. [link](https://hal.inria.fr/inria-00289540/document)
+- Lennart Beringer et. al. _Verified Compilation for Shared-memory C_: [link](https://www.cs.princeton.edu/~appel/papers/shmemc.pdf)
 - Venkatesh Srinivasan and Thomas Reps. _Partial Evaluation of Machine Code_: [link](https://dl.acm.org/doi/pdf/10.1145/2858965.2814321)
 - Tachio Terauchi and Alex Aiken. _Secure Information Flow As a Safety Problem_ [link](https://theory.stanford.edu/~aiken/publications/papers/sas05b.pdf)
 - Luke Nelson, et.al _Hyperkernel: Push-Button Verification of an OS Kernel_. [link](https://unsat.cs.washington.edu/papers/nelson-hyperkernel.pdf).
@@ -55,8 +54,6 @@ Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc
 - Sebastian Poeplau and Aurélien Francillon. _Symbolic execution with SYMCC: Don’t interpret, compile!_, [link](http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf)
 - Steven Schäfer,  Sigurd Schneider, and Gert Smolka. _Axiomatic Semantics for Compiler Verification_. [link](https://dl.acm.org/doi/abs/10.1145/2854065.2854083)
 - Leslie Lamport. _win and sin: predicate transformers for concurrency_. [link](https://dl.acm.org/doi/10.1145/78969.78970)
-- Leslie Lamport. _Time, Clocks, and the Ordering of Events in a Distributed System_. [link](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
-- Leslie Lamport. _How to Make a Correct Multiprocess Program Execute Correctly on a Multiprocessor_ [link](https://lamport.azurewebsites.net/pubs/lamport-how-to-make.pdf)
 - Susan Owicki and David Gries. _Verifying properties of parallel programs: an axiomatic approach_. [link](https://dl.acm.org/doi/10.1145/360051.360224)
 - Rahul Sharma et. al. _Data-Driven Equivalence Checking_. [link](https://cs.stanford.edu/people/eschkufz/docs/oopsla_13.pdf).
 - Benjamin Goldberg et. al. _Into the loops: Practical issues in translation validation for optimizing compilers_. [link](http://theory.stanford.edu/~barrett/pubs/GZB05.pdf).
@@ -64,8 +61,8 @@ Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc
 - Sorin Lerner. et. al. _Automatically Proving the Correctness of Compiler Optimizations_. [link](http://web.cs.ucla.edu/~todd/research/pldi03.pdf).
 - Jean-Baptiste Tristan and Xavier Leroy. _Verified Validation of lazy code motion_. [link](https://hal.inria.fr/inria-00415865/file/validation-LCM.pdf).
 - Lenore Zuck et. al. _Translation and run-time validation of loop transformations_. [link](http://theory.stanford.edu/~barrett/pubs/ZPG+05.pdf).
-- Xavier Rival. _Symbolic transfer function-based approaches to certi- fied compilation_. [link](https://www.di.ens.fr/~rival/papers/popl04.pdf).
-- Ross Tate et. al. _Equality saturation: A new approach to optimization_. [link](http://www.cs.cornell.edu/~ross/publications/eqsat/eqsat_tate_popl09.pdf) 
+- Xavier Rival. _Symbolic transfer function-based approaches to certified compilation_. [link](https://www.di.ens.fr/~rival/papers/popl04.pdf).
+- Ross Tate et. al. _Equality saturation: A new approach to optimization_. [link](http://www.cs.cornell.edu/~ross/publications/eqsat/eqsat_tate_popl09.pdf)
 
 ## Past Papers
 
@@ -83,6 +80,15 @@ Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc
 - Jade Alglave et. al. _Software Verification for Weak Memory via Program Transformation_. [link](https://arxiv.org/abs/1207.7264).
 - Jade Alglave et. al. _Fences in Weak Memory Models_. [link](https://dl.acm.org/doi/10.1007/978-3-642-14295-6_25)
 - Jade Alglave et. al. _Herding Cats - Modelling, simulation, testing, and data-mining for weak memory_. [link](https://arxiv.org/abs/1308.6810).
+- Robin Morisset et. al. _Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model_. [link](https://fzn.fr/projects/wmc/readings/pldi13.pdf)
+- Armstrong et. al. _Isla: Integrating full-scale ISA semantics and axiomatic concurrency models_. [link](https://ucl-pplv.github.io/CAV21/poster_P_41/#tab-extended)
+- Michalis Kokologiannakis and Viktor Vadeiadis. GenMC: A ModelC Checker for Weak Memory Models. [link](https://ucl-pplv.github.io/CAV21/poster_P_313/)
+- Leslie Lamport. _How to Make a Correct Multiprocess Program Execute Correctly on a Multiprocessor_ [link](https://lamport.azurewebsites.net/pubs/lamport-how-to-make.pdf)
+- Christopher Lidbury et. al, _Many-Core Compiler Fuzzing_. [link](https://dl.acm.org/doi/10.1145/2737924.2737986)
+- Le et. al. _Compiler validation via equivalence modulo inputs_.[link](https://dl.acm.org/doi/10.1145/2666356.2594334)
+- Leslie Lamport. _Time, Clocks, and the Ordering of Events in a Distributed System_. [link](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
+t
+
 
 
 
